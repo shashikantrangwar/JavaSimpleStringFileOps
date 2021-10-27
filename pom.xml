@@ -23,5 +23,12 @@
             </plugins>
         </pluginManagement>
     </build>
-
+    <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-clean-plugin -->
+ <dependencies>
+    <dependency>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-clean-plugin</artifactId>
+        <version>3.1.0</version>
+    </dependency>
+ </dependencies>
 </project>
